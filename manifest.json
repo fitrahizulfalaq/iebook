@@ -1,7 +1,7 @@
 {
 	"name":"IEBooks Apps",
 	"short_name":"IEBooks Apps",
-	"start_url":"/?source=pwa",
+	"start_url":"/iebook/?source=pwa",
 	"display":"standalone",
 	"background_color":"#113491",
 	"theme_color":"#113491",

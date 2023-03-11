@@ -1,0 +1,22 @@
+{
+	"name":"IEBooks Apps",
+	"short_name":"IEBooks Apps",
+	"start_url":"/?source=pwa",
+	"display":"standalone",
+	"background_color":"#113491",
+	"theme_color":"#113491",
+	"scope": "/",
+	"description":"IEBooks Apps",
+	"icons":[
+	{
+	"src":"assets/pwa/icon-192x192.png",					
+	"sizes":"192x192",
+	"type":"image/png"
+	},
+	{
+	"src":"assets/pwa/icon-512x512.png",
+	"sizes":"512x512",
+	"type":"image/png"
+	}
+]
+}

@@ -7,15 +7,20 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000000">
-    <title><?= $menu?></title>
+    <title><?= $menu ?></title>
     <meta name="description" content="Finapp HTML Mobile Template">
     <meta name="keywords" content="bootstrap, wallet, banking, fintech mobile template, cordova, phonegap, mobile, html, responsive" />
-    <link rel="icon" type="image/png" href="<?=base_url()?>/assets/img/favicon.png" sizes="32x32">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?=base_url()?>/assets/img/icon/192x192.png">
-    <link rel="stylesheet" href="<?=base_url()?>/assets/css/style.css">
-    <link rel="manifest" href="<?=base_url()?>/__manifest.json">
+    <link rel="icon" type="image/png" href="<?= base_url() ?>/assets/img/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url() ?>/assets/img/icon/192x192.png">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
 
-    <?php $this->load->view("component/css/arabic")?>
+    <?php $this->load->view("component/css/arabic") ?>
+
+    <!-- PWA Script -->
+    <meta name="apple-mobile-web-app-status-bar" content="#113491">
+    <meta name="theme-color" content="#113491">
+    <link rel="manifest" href="<?= base_url() ?>/manifest.json">
+    <!-- !End PWA Script -->
 
 </head>
 
@@ -23,7 +28,7 @@
 
     <!-- loader -->
     <div id="loader">
-        <img src="<?=base_url()?>/assets/img/loading-icon.png" alt="icon" class="loading-icon">
+        <img src="<?= base_url() ?>/assets/img/loading-icon.png" alt="icon" class="loading-icon">
     </div>
     <!-- * loader -->
 
@@ -45,25 +50,25 @@
     </div>
     <!-- * App Header -->
 
-	<div class="row">
+    <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
             <?= $contents ?>
         </div>
         <div class="col-lg-3"></div>
-    </div >
+    </div>
 
-    <?php $this->load->view("component/footerDetail")?>
+    <?php $this->load->view("component/footerDetail") ?>
 
     <!-- ========= JS Files =========  -->
     <!-- Bootstrap -->
-    <script src="<?=base_url()?>/assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="<?= base_url() ?>/assets/js/lib/bootstrap.bundle.min.js"></script>
     <!-- Ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!-- Splide -->
-    <script src="<?=base_url()?>/assets/js/plugins/splide/splide.min.js"></script>
+    <script src="<?= base_url() ?>/assets/js/plugins/splide/splide.min.js"></script>
     <!-- Base Js File -->
-    <script src="<?=base_url()?>/assets/js/base.js"></script>
+    <script src="<?= base_url() ?>/assets/js/base.js"></script>
 
 
 </body>

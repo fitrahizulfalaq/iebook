@@ -13,9 +13,14 @@
     <link rel="icon" type="image/png" href="<?= base_url() ?>/assets/img/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
-    <link rel="manifest" href="__manifest.json">
-    
-    <?php $this->load->view("component/css/arabic")?>
+
+    <?php $this->load->view("component/css/arabic") ?>
+
+    <!-- PWA Script -->
+    <meta name="apple-mobile-web-app-status-bar" content="#113491">
+    <meta name="theme-color" content="#113491">
+    <link rel="manifest" href="<?=base_url()?>/manifest.json">
+    <!-- !End PWA Script -->
 
 </head>
 
@@ -97,6 +102,28 @@
     <!-- Base Js File -->
     <script src="<?= base_url() ?>/assets/js/base.js"></script>
 
+    <!-- Script for Service Worker -->
+    <script>
+        window.addEventListener('load', () => {
+            registerSW();
+        });
+
+        // Register the Service Worker
+        async function registerSW() {
+            if ('serviceWorker' in navigator) {
+                try {
+                    await navigator
+                        .serviceWorker
+                        .register('<?=base_url()?>/serviceworker.js');
+                } catch (e) {
+                    console.log('SW registration failed');
+                }
+            }
+        }
+    </script>
+    <!-- Install -->
+
 
 </body>
+
 </html>

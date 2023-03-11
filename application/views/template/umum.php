@@ -14,9 +14,14 @@
     <link rel="icon" type="image/png" href="<?=base_url()?>/assets/img/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="<?=base_url()?>/assets/img/icon/192x192.png">
     <link rel="stylesheet" href="<?=base_url()?>/assets/css/style.css">
-    <link rel="manifest" href="<?=base_url()?>/__manifest.json">
 
     <?php $this->load->view("component/css/arabic")?>
+
+    <!-- PWA Script -->
+    <meta name="apple-mobile-web-app-status-bar" content="#113491">
+    <meta name="theme-color" content="#113491">
+    <link rel="manifest" href="<?=base_url()?>/manifest.json">
+    <!-- !End PWA Script -->
 </head>
 
 <body>

@@ -208,6 +208,26 @@
         AddtoHome("2000", "once");
     </script>
 
+    <!-- Script for Service Worker -->
+    <script>
+        window.addEventListener('load', () => {
+            registerSW();
+        });
+
+        // Register the Service Worker
+        async function registerSW() {
+            if ('serviceWorker' in navigator) {
+                try {
+                    await navigator
+                        .serviceWorker
+                        .register('<?=base_url()?>/serviceworker.js');
+                } catch (e) {
+                    console.log('SW registration failed');
+                }
+            }
+        }
+    </script>
+    <!-- Install -->
 </body>
 
 </html>

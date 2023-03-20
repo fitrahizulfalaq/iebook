@@ -18,7 +18,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/openLatihan/".$this->uri->segment(3)."-1") ?>">
-                            <h2 class="text-white">Pilihan Ganda</h2>
+                            <h2 class="text-white">التدريب الأول</h2>
                         </a>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/openLatihan/".$this->uri->segment(3)."-2") ?>">
-                            <h2 class="text-white">Essay</h2>
+                            <h2 class="text-white">التدريب الثاني</h2>
                         </a>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/openLatihan/".$this->uri->segment(3)."-3") ?>">
-                            <h2 class="text-white">Upload Tugas</h2>
+                            <h2 class="text-white">التدريب الثالث</h2>
                         </a>
                     </div>
                 </div>

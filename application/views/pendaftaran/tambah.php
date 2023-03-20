@@ -51,7 +51,7 @@
 
 				<div class="form-group basic">
 					<div class="input-wrapper">
-						<label class="label" for="nama">الاسم</label>
+						<label class="label" for="nama">الاسم المستخدم</label>
 						<input type="nama" name="nama" class="form-control" id="username" placeholder="Ex: Fitrah Izul Falaq" value="<?= set_value('nama'); ?>" required>
 						<i class="clear-input">
 							<ion-icon name="close-circle"></ion-icon>

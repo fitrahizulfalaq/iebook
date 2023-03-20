@@ -82,7 +82,7 @@
                 </div>
 
                 <div class="form-button-group  transparent">
-                    <button type="submit" name="login" class="btn btn-primary btn-block btn-lg">سجيل الدخول</button>
+                    <button type="submit" name="login" class="btn btn-primary btn-block btn-lg">تسجيل الدخول</button>
                 </div>
 
             </form>

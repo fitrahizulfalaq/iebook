@@ -20,8 +20,8 @@
 							<!-- small card -->
 							<div class="card product-card">
 								<div class="inner text-center">
-									<a href="<?= site_url('page/pendahuluan') ?>">
-										<img src="<?= base_url("") ?>/assets/img/icon/pendahuluan.png" alt="" width="100%">
+									<a href="<?= site_url('page/petunjuk') ?>">
+										<img src="<?= base_url("") ?>/assets/img/icon/petunjuk.png" alt="" width="100%">
 									</a>
 								</div>
 							</div>
@@ -30,8 +30,8 @@
 							<!-- small card -->
 							<div class="card product-card">
 								<div class="inner text-center">
-									<a href="<?= site_url('page/petunjuk') ?>">
-										<img src="<?= base_url("") ?>/assets/img/icon/petunjuk.png" alt="" width="100%">
+									<a href="<?= site_url('page/pendahuluan') ?>">
+										<img src="<?= base_url("") ?>/assets/img/icon/pendahuluan.png" alt="" width="100%">
 									</a>
 								</div>
 							</div>

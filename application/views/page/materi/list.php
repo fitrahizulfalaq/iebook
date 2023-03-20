@@ -1,7 +1,7 @@
 <div id="appCapsule">
     <div class="section full gradientSection">
         <div class="in">
-            <h1 class="total">المحتويات</h1>
+            <h1 class="total">الدرس الثالث</h1>
         </div>
     </div>
 
@@ -18,7 +18,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/materi/1") ?>">
-                            <h2 class="text-white">الدرس الأول</h2>
+                            <h2 class="text-white">الدرس الأول || الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/materi/2") ?>">
-                            <h2 class="text-white">الدرس الثاني</h2>
+                            <h2 class="text-white">الدرس الثاني || أقسام الخطابة العربية </h2>
                         </a>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/materi/3") ?>">
-                            <h2 class="text-white">لدرس الثالث</h2>
+                            <h2 class="text-white">الدرس الثالث || عناصر نص الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/materi/4") ?>">
-                            <h2 class="text-white">الدرس الرابع</h2>
+                            <h2 class="text-white">الدرس الرابع ||مراحل إعداد نص الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/materi/5") ?>">
-                            <h2 class="text-white">الدرس الخامس</h2>
+                            <h2 class="text-white">الدرس الخامس || التشجيع على تحضير الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/materi/6") ?>">
-                            <h2 class="text-white">الدرس السادس</h2>
+                            <h2 class="text-white">الدرس السادس ||مجموعة نصوص الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>

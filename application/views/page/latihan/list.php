@@ -18,7 +18,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/latihan/1") ?>">
-                            <h2 class="text-white">لتدريب الأول</h2>
+                            <h2 class="text-white">الدرس الأول || الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/latihan/2") ?>">
-                            <h2 class="text-white">لتدريب الثاني</h2>
+                            <h2 class="text-white">الدرس الثاني || أقسام الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/latihan/3") ?>">
-                            <h2 class="text-white">لتدريب الثالث</h2>
+                            <h2 class="text-white">الدرس الثالث || عناصر نص الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/latihan/4") ?>">
-                            <h2 class="text-white">لتدريب الرابع</h2>
+                            <h2 class="text-white">الدرس الرابع ||مراحل إعداد نص الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/latihan/5") ?>">
-                            <h2 class="text-white">لتدريب الخامس</h2>
+                            <h2 class="text-white">الدرس الخامس || التشجيع على تحضير الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/latihan/6") ?>">
-                            <h2 class="text-white">لتدريب السادس</h2>
+                            <h2 class="text-white">الدرس السادس ||مجموعة نصوص الخطابة العربية</h2>
                         </a>
                     </div>
                 </div>

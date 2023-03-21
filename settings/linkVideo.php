@@ -70,5 +70,7 @@ $data['6-3'] = "ctfJ3F7Ag6o";
 $data['6-4'] = "Wp-5CMZnId8";
 $data['6-5'] = "4P1jbp8lqJs";
 $data['6-6'] = "rPVKeevobAA";
+$data['6-7'] = "TjJRGXW4JbM";
+$data['6-8'] = "NeKrQihbK5E";
 
 return $data;

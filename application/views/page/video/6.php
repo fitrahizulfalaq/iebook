@@ -12,12 +12,12 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/playVideo/1-1") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/6-1") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/playVideo/1-1") ?>">
+                        <a href="<?= base_url("page/playVideo/6-1") ?>">
                             <h2 class="text-white">الفيديو الأول</h2>
                         </a>
                     </div>
@@ -28,12 +28,12 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/playVideo/1-2") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/6-2") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/playVideo/1-2") ?>">
+                        <a href="<?= base_url("page/playVideo/6-2") ?>">
                             <h2 class="text-white">الفيديو الثاني</h2>
                         </a>
                     </div>
@@ -44,12 +44,12 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/playVideo/1-3") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/6-3") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/playVideo/1-3") ?>">
+                        <a href="<?= base_url("page/playVideo/6-3") ?>">
                             <h2 class="text-white">الفيديو الثالث</h2>
                         </a>
                     </div>
@@ -60,12 +60,12 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/playVideo/1-4") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/6-4") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/playVideo/1-4") ?>">
+                        <a href="<?= base_url("page/playVideo/6-4") ?>">
                             <h2 class="text-white">الفيديو الرابع</h2>
                         </a>
                     </div>
@@ -76,12 +76,12 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/playVideo/1-5") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/6-5") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/playVideo/1-5") ?>">
+                        <a href="<?= base_url("page/playVideo/6-5") ?>">
                             <h2 class="text-white">الفيديو الخامس</h2>
                         </a>
                     </div>
@@ -92,12 +92,12 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/playVideo/1-6") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/6-6") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/playVideo/1-6") ?>">
+                        <a href="<?= base_url("page/playVideo/6-6") ?>">
                             <h2 class="text-white">الفيديو السادس</h2>
                         </a>
                     </div>

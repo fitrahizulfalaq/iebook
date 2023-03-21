@@ -29,7 +29,7 @@
 				<?php $this->view('message') ?>
 				<div class="form-group basic">
 					<div class="input-wrapper">
-						<label class="label" for="username">اسم المستخدم</label>
+						<label class="label" for="username">الاسم المستخدم</label>
 						<input type="username" name="username" class="form-control" id="username" placeholder="Ex: fitrahizulfalaq" value="<?= set_value('username'); ?>" required>
 						<i class="clear-input">
 							<ion-icon name="close-circle"></ion-icon>

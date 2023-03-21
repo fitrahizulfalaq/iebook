@@ -1,7 +1,7 @@
 <div id="appCapsule">
     <div class="section full gradientSection">
         <div class="in">
-            <h1 class="total">الدرس الثالث</h1>
+            <h1 class="total">المحتويات</h1>
         </div>
     </div>
 

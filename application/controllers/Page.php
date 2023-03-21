@@ -49,8 +49,10 @@ class Page extends CI_Controller {
 		$url = $this->uri->segment("3");
 		if (!isset($url)) {
 			$data['menu'] = "الفيديوهات";
+			$data['link'] = include(FCPATH . 'settings/linkVideo.php');
 			$this->templateadmin->load('template/dashboard','page/video/list',$data);
 		} else {
+			$data['link'] = include(FCPATH . 'settings/linkVideo.php');
 			$data['menu'] = "الفيديوهات";
 			$this->templateadmin->load('template/detail','page/video/'.$url,$data);
 		}

@@ -5,8 +5,11 @@
         <!-- <figure>
 			<img src="<?= base_url() ?>/assets/img/sample/photo/3.jpg" alt="image" class="imaged img-fluid">
 		</figure> -->
+        <h2>
+            <?= $link["judul-".substr($this->uri->segment("3"),0,1)] ?>
+        </h2>
         <h1>
-            المقدمة
+            <?= $link["materi-".$this->uri->segment("3")] ?>
         </h1>
     </div>
 

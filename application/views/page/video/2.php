@@ -1,7 +1,7 @@
 <div id="appCapsule">
     <div class="section full gradientSection">
         <div class="in">
-            <h1 class="total">&zwnj;ب.&nbsp; الفيديوهات عن المقدمة في الخطابة</h1>
+            <h1 class="total">‌<?= $link["judul-".$this->uri->segment("3")] ?></h1>
         </div>
     </div>
 
@@ -18,7 +18,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/playVideo/2-1") ?>">
-                            <h2 class="text-white">Video 1</h2>
+                            <h2 class="text-white">الفيديو الأول</h2>
                         </a>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/playVideo/2-2") ?>">
-                            <h2 class="text-white">Video 2</h2>
+                            <h2 class="text-white">الفيديو الثاني</h2>
                         </a>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/playVideo/2-3") ?>">
-                            <h2 class="text-white">Video 3</h2>
+                            <h2 class="text-white">الفيديو الثالث</h2>
                         </a>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     </h1>
                     <div>
                         <a href="<?= base_url("page/playVideo/2-4") ?>">
-                            <h2 class="text-white">Video 4</h2>
+                            <h2 class="text-white">الفيديو الرابع</h2>
                         </a>
                     </div>
                 </div>

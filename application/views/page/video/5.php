@@ -1,7 +1,7 @@
 <div id="appCapsule">
     <div class="section full gradientSection">
         <div class="in">
-            <h1 class="total">الفيديوهات</h1>
+            <h1 class="total">‌<?= $link["judul-".$this->uri->segment("3")] ?></h1>
         </div>
     </div>
 
@@ -12,13 +12,13 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/video/1") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/5-1") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/video/1") ?>">
-                            <h2 class="text-white">الفيديوهات عن المجاملة قبل السلام</h2>
+                        <a href="<?= base_url("page/playVideo/5-1") ?>">
+                            <h2 class="text-white">الفيديو الأول</h2>
                         </a>
                     </div>
                 </div>
@@ -28,13 +28,13 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/video/2") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/5-2") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/video/2") ?>">
-                            <h2 class="text-white">الفيديوهات عن التحيات في الخطابة</h2>
+                        <a href="<?= base_url("page/playVideo/5-2") ?>">
+                            <h2 class="text-white">الفيديو الثاني</h2>
                         </a>
                     </div>
                 </div>
@@ -44,13 +44,13 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/video/3") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/5-3") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/video/3") ?>">
-                            <h2 class="text-white">الفيديوهات عن المقدمة في الخطابة </h2>
+                        <a href="<?= base_url("page/playVideo/5-3") ?>">
+                            <h2 class="text-white">الفيديو الثالث</h2>
                         </a>
                     </div>
                 </div>
@@ -60,50 +60,18 @@
             <div class="item bg-primary">
                 <div class="in">
                     <h1>
-                        <a href="<?= base_url("page/video/4") ?>" class="text-white">
+                        <a href="<?= base_url("page/playVideo/5-4") ?>" class="text-white">
                             <ion-icon name="arrow-back-circle-outline"></ion-icon>
                         </a>
                     </h1>
                     <div>
-                        <a href="<?= base_url("page/video/4") ?>">
-                            <h2 class="text-white">الفيديوهات عن التعبيرات بعد المقدمة </h2>
+                        <a href="<?= base_url("page/playVideo/5-4") ?>">
+                            <h2 class="text-white">الفيديو الرابع</h2>
                         </a>
                     </div>
                 </div>
             </div>
             <!-- * item -->
-            <!-- item -->
-            <div class="item bg-primary">
-                <div class="in">
-                    <h1>
-                        <a href="<?= base_url("page/video/5") ?>" class="text-white">
-                            <ion-icon name="arrow-back-circle-outline"></ion-icon>
-                        </a>
-                    </h1>
-                    <div>
-                        <a href="<?= base_url("page/video/5") ?>">
-                            <h2 class="text-white">الفيديوهات عن المحتوى في الخطابة </h2>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- * item -->
-            <!-- item -->
-            <div class="item bg-primary">
-                <div class="in">
-                    <h1>
-                        <a href="<?= base_url("page/video/6") ?>" class="text-white">
-                            <ion-icon name="arrow-back-circle-outline"></ion-icon>
-                        </a>
-                    </h1>
-                    <div>
-                        <a href="<?= base_url("page/video/6") ?>">
-                            <h2 class="text-white">الفيديوهات عن الاختتام في الخطابة </h2>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- * item -->            
         </div>
     </div>
 </div>

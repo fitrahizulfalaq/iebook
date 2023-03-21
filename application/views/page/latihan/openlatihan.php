@@ -13,7 +13,7 @@
         </div>
     <?php } else { ?>
         <div class="section mt-2">
-            <a href="<?= $link[$this->uri->segment("3")] ?>" target="_blank" class="btn btn-block btn-info">Upload</a>
+            <a href="<?= $link[$this->uri->segment("3")] ?>" target="_blank" class="btn btn-block btn-info">تحميل الوظيفة</a>
             <hr>
         </div>
     <?php } ?>

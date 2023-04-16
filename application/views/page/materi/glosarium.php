@@ -6,7 +6,7 @@
 			<img src="<?= base_url() ?>/assets/img/sample/photo/3.jpg" alt="image" class="imaged img-fluid">
 		</figure> -->
         <h1>
-            دليل استخدام الكتاب
+            المسرد
         </h1>
     </div>
 

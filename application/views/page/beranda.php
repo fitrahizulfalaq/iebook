@@ -3,13 +3,17 @@
 	<div class="section full gradientSection">
 		<div class="in">
 			<center>
-				<img src="<?=base_url()?>/assets/img/logo.png" alt="logo" class="imaged w-100">
+				<img src="<?= base_url() ?>/assets/img/logo.png" alt="logo" class="imaged w-100">
 
 			</center>
 		</div>
 	</div>
-	
-	<div class="section mt-4">
+	<div class="section full mt-2">
+		<div class="in">
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/ERY8XVNCyHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="section full mt-4">
 		<div class="tab-content">
 			<!-- feed -->
 			<div class="tab-pane fade show active" id="feed" role="tabpanel">
@@ -35,7 +39,7 @@
 									</a>
 								</div>
 							</div>
-						</div>						
+						</div>
 					</div>
 					<div class="row mt-2">
 						<div class="col-lg-6 col-6">
@@ -57,7 +61,7 @@
 									</a>
 								</div>
 							</div>
-						</div>						
+						</div>
 					</div>
 					<div class="row mt-2">
 						<div class="col-lg-6 col-6">
@@ -79,7 +83,7 @@
 									</a>
 								</div>
 							</div>
-						</div>						
+						</div>
 					</div>
 				</div>
 			</div>

@@ -28,7 +28,7 @@ class Page extends CI_Controller {
 
 	public function pengembang()
 	{
-		$data['menu'] = "دليل استخدام الكتاب";
+		$data['menu'] = "عن المطوّر";
 		$this->templateadmin->load('template/detail','page/pengembang',$data);
 	}
 

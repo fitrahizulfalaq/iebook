@@ -12,8 +12,8 @@
 
     <div class="section mt-2">
         <div class="textArabic">
-            <p><strong>المسرد</strong><strong> </strong><strong>(Glosarium) </strong></p>
-            <p><strong>&nbsp;</strong></p>
+            <!-- <p><strong>المسرد</strong><strong> </strong><strong>(Glosarium) </strong></p> -->
+            <!-- <p><strong>&nbsp;</strong></p> -->
             <p><strong>(أ)</strong></p>
             <table>
                 <tbody>

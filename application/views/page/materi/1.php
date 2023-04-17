@@ -1,13 +1,32 @@
+<!-- App Header -->
+<div class="appHeader bg-primary">
+	<div class="right">
+		<a href="#" class="headerButton goBack">
+			<ion-icon name="chevron-forward-outline" class="text-white"></ion-icon>
+		</a>
+	</div>
+	<div class="pageTitle">
+		الخطابة العربية
+	</div>
+</div>
+<!-- * App Header -->
+
 <!-- App Capsule -->
 <div id="appCapsule">
 	<div class="section mt-2">
 		<div class="textArabic">
 			<h2>الدرس الأول</h2>
 			<h1>الخطابة العربية</h1>
-			<p><figure>
-			<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.1.jpg" class="imaged img-fluid"/></figure></p>
-			<p><figure>
-			<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.2.jpg" class="imaged img-fluid"/></figure></p>
+			<p>
+			<figure>
+				<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.1.jpg" class="imaged img-fluid" />
+			</figure>
+			</p>
+			<p>
+			<figure>
+				<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.2.jpg" class="imaged img-fluid" />
+			</figure>
+			</p>
 			<p>الخطابة هي جزء من خطوة لتحسين مهارة الكلام. مهارة الخطابة لا تأتي بالولادة إنما تحتاج إلى معرفة وممارسة. فأول خطوة في تدريس الخطابة هي معرفة ماهية الخطابة. هذا الدرس يشمل على نظريات الخطابة العربية من مفهومها وفوائدها ووظائفها وعناصرها. تعرض المادة مزودة بخريطة المفاهيم وخلاصة الدرس لتسهيل معرفتك عن المادة. يعطي إليك في آخر الدرس التدريبات من المادة. اقرأ الدرس حتى النهاية فسوف تجد أن تدريس الخطابة مهمة ومفيدة لترقية مهارتك الكلام.</p>
 			<h1>الكفاءة الأساسية</h1>
 			<p>الكفاءة الأساسية لهذا الدرس هي تنمية قدرة الطلبة على معرفة الخطابة العربية والإلمام بمفهومها وفوائدها ووظائفها وعناصرها</p>
@@ -40,31 +59,40 @@
 			<table>
 				<tbody>
 					<tr>
-						<td width="138">
-							<p><figure>
-			<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.3.jpg" class="imaged img-fluid"/></figure></p>
+						<td width="20%">
+							<p>
+							<figure>
+								<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.3.jpg" class="imaged img-fluid" />
+							</figure>
+							</p>
 						</td>
-						<td width="226">
+						<td width="80%" class="p-2">
 							<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>الخطيب.</strong> وهو من العنصر الأساسي في الخطابة العربية. فالنجاح والفشل في الخطابة العربية يعتمد على الخطيب</p>
 						</td>
 					</tr>
 					<tr>
-						<td width="138">
-							<p><figure>
-			<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.4.jpg" class="imaged img-fluid"/></figure></p>
+						<td width="20%">
+							<p>
+							<figure>
+								<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.4.jpg" class="imaged img-fluid" />
+							</figure>
+							</p>
 							<p><strong>&nbsp;</strong></p>
 						</td>
-						<td width="226">
+						<td width="80%" class="p-2">
 							<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>جمهور</strong> <strong>أي جمع كثير من المستمعين</strong>. لابد للخطيب أن يعلم بهذا الجمهور. فلمعرفة الجمهور بتحليل المستمعين من حيث التجاوب، التكوين الاجتماعي، العمر، الجنس، الذكاء، الميول، الأثر، الموقف الاتصالي.&nbsp;</p>
 						</td>
 					</tr>
 					<tr>
-						<td width="138">
-							<p><figure>
-			<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.5.jpg" class="imaged img-fluid"/></figure></p>
+						<td width="20%">
+							<p>
+							<figure>
+								<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.5.jpg" class="imaged img-fluid" />
+							</figure>
+							</p>
 							<p><strong>&nbsp;</strong></p>
 						</td>
-						<td width="226">
+						<td width="80%" class="p-2">
 							<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>نص الخطبة أي موضوع الخطبة</strong>. وينقسم نصها إلى ثلاثة أقسام؛ المقدمة والعرض والخاتمة.</p>
 							<p><strong>&nbsp;</strong></p>
 						</td>
@@ -73,8 +101,11 @@
 			</table>
 			<p>فكل عناصر التي قد ذكرت، لابد أن تجدها في الخطابة العربية. وإذا فقد عنصرا واحدا من الخمسة فقدت الخطابة قسما هامّا منها.</p>
 			<h1>خريطة المفاهيم</h1>
-			<p><figure>
-			<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.6.jpg" class="imaged img-fluid"/></figure></p>
+			<p>
+			<figure>
+				<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.6.jpg" class="imaged img-fluid" />
+			</figure>
+			</p>
 			<h1>الخلاصة</h1>
 			<ul>
 				<li><strong> </strong>الخطابة في اللغة هي الكلام المنثور المسجّع. أما الخطابة في الاصطلاحي فهي فنّ مواجهة والاستمالة.</li>
@@ -83,8 +114,11 @@
 				<li><strong> </strong>عناصر الخطابة العربية بثلاثة. وهي: الخطيب، جمهور، نص الخطبة أي موضوع الخطبة.</li>
 			</ul>
 			<p>&nbsp;</p>
-			<p><figure>
-			<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.7.jpg" class="imaged img-fluid"/></figure></p>
+			<p>
+			<figure>
+				<img src="<?= base_url() ?>/assets/img/gambar/Gambar Isi 1.7.jpg" class="imaged img-fluid" />
+			</figure>
+			</p>
 		</div>
 	</div>
 </div>

@@ -1,3 +1,16 @@
+<!-- App Header -->
+<div class="appHeader bg-primary">
+	<div class="right">
+		<a href="#" class="headerButton goBack">
+			<ion-icon name="chevron-forward-outline" class="text-white"></ion-icon>
+		</a>
+	</div>
+	<div class="pageTitle">
+	أقسام الخطابة العربية
+	</div>
+</div>
+<!-- * App Header -->
+
 <!-- App Capsule -->
 <div id="appCapsule">
 	<div class="section mt-2">

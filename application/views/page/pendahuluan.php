@@ -23,13 +23,12 @@
             <p>ولقد بذل الكاتب أقصى من مجهود لإعداد هذا الكتاب، ولكن لا يعني أن الكتاب كامل لا ينقصه أي شيء. فإن الكتاب بعيد عن الكمال. فالكمال لله وحده. فنرحب من التعليقات والمدخلات والنقدات من القراء الأعزاء.</p>
             <p>&nbsp;</p>
             <p>والله نسأل أن يوفقنا جميعا لخدمة دينه، ولغة كتابه.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <p>مالانج، ٢٠ يناير ٢٠٢٣</p>
-            <p>&nbsp;</p>
-            <p>الكاتبة،</p>
-            <p>أمامي صفية القرين</p>
+            <p style=" text-align: left;">مالانج، ٢٠ يناير ٢٠٢٣</p>
+            <p style=" text-align: left;">&nbsp;</p>
+            <p style=" text-align: left;">الكاتبة،</p>
+            <p style=" text-align: left;">أمامي صفية القرين</p>
         </div>
         <hr>
-
     </div>
 </div>
 <!-- * App Capsule -->

@@ -13,6 +13,7 @@
         </div>
     <?php } else { ?>
         <div class="section mt-2">
+            tess
             <?= $link["essay-".$this->uri->segment("3")] ?>
             <hr>
             <a href="<?= $link[$this->uri->segment("3")] ?>" target="_blank" class="btn btn-block btn-info">تحميل الوظيفة</a>

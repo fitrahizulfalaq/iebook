@@ -1,3 +1,9 @@
+<audio id="myAudio" autoplay><source src="<?=base_url()?>/intro.ogg" type="audio/ogg"><source src="<?=base_url()?>/intro.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
+<script>
+function myFunction() {
+  var x = document.getElementById("myAudio").autoplay;
+}
+</script>
 <!-- App Capsule -->
 <div id="appCapsule">
 	<div class="section full gradientSection">
